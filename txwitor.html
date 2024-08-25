@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twixtor</title>
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: burlywood;
+        }
+
+        header {
+            text-align: center;
+            background-image: linear-gradient(to bottom, #009bd8, #5c21ff);
+            height: 90px;
+            padding-top: 30px;
+        }
+
+        nav {
+            background-color: #5c21ff;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            box-shadow: 0px 7px 7px #0000003f;
+        }
+
+        nav > a {
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition-duration: 0.5s;
+            color: #00d9ff;
+        }
+        
+        nav > a:hover {
+            background-color: #7d4dff;
+        }
+
+        div.video {
+            position: relative;
+            padding-bottom: 75%;
+        }
+
+        div.video > iframe {
+            position: absolute;
+            top: 5%;
+            left: 15%;
+            width: 70%;
+            height: 70%;
+        }
+
+        h1.center {
+            text-align: center;
+            padding-top: 40px; 
+            color: #368800;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        } 
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Txwitor</h1>
+    </header>
+    <nav>
+        <a href="index.html">Voltar</a>
+    </nav>
+    <main>
+        <h1 class="center">Toph Twixtor (1080p)</h1>
+        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/DI80dye3iVY?si=Vfw-9fz5OXwjtOM_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+</body>
+</html>
